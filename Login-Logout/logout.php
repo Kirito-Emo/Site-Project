@@ -7,6 +7,10 @@
 
   // redirect verso pagina interna
   header("location: ../Homepage/homepage.php");
+<<<<<<< HEAD
 ?>
 
 
+=======
+?>
+>>>>>>> parent of ec2bffd (deleted:    Login-Logout/logout.php)
