@@ -83,25 +83,25 @@
                         <p for="descr">Disponibilit&agrave giorni:</p></br>
                         
                         <div class="giorni" required>
-                            <input type="checkbox" name="giorni[]" id="lunedi" value="lunedì">
+                            <input type="checkbox" name="giorni[]" id="lunedi" value="Lunedì">
                             <label for="lunedi" style="font-size: 16px; padding-left: 5px;">Lun</label> &nbsp
 
-                            <input type="checkbox" name="giorni[]" id="martedi" value="martedi">
+                            <input type="checkbox" name="giorni[]" id="martedi" value="Martedì">
                             <label for="martedi" style="font-size: 16px; padding-left: 5px;">Mar</label> &nbsp
 
-                            <input type="checkbox" name="giorni[]" id="mercoledi" value="mercoledi">
+                            <input type="checkbox" name="giorni[]" id="mercoledi" value="Mercoledì">
                             <label for="mercoledi" style="font-size: 16px; padding-left: 5px;">Mer</label> &nbsp
 
-                            <input type="checkbox" name="giorni[]" id="giovedi" value="giovedi">
+                            <input type="checkbox" name="giorni[]" id="giovedi" value="Giovedì">
                             <label for="giovedi" style="font-size: 16px; padding-left: 5px;">Gio</label> &nbsp
 
-                            <input type="checkbox" name="giorni[]" id="venerdi" value="venerdi">
+                            <input type="checkbox" name="giorni[]" id="venerdi" value="Venerdì">
                             <label for="venerdi" style="font-size: 16px; padding-left: 5px;">Ven</label> &nbsp
 
-                            <input type="checkbox" name="giorni[]" id="sabato" value="sabato">
+                            <input type="checkbox" name="giorni[]" id="sabato" value="Sabato">
                             <label for="sabato" style="font-size: 16px; padding-left: 5px;">Sab</label> &nbsp
 
-                            <input type="checkbox" name="giorni[]" id="domenica" value="domenica">
+                            <input type="checkbox" name="giorni[]" id="domenica" value="Domenica">
                             <label for="domenica" style="font-size: 16px; padding-left: 5px;">Dom</label>
                         </div>
 
