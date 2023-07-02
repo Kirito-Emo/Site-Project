@@ -1,5 +1,5 @@
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -16,7 +16,7 @@ body {
 
 .container {
     align-items: center;
-    height: 2050px;
+    height: 1800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
