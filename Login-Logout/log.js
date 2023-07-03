@@ -28,7 +28,6 @@ function validateForm() {
     var nome = document.getElementById("name").value;
     var cognome = document.getElementById("surname").value;
     var birth = document.getElementById('date').value;
-    var email = document.getElementById("email").value;
     var password = document.getElementById("pass").value;
 
     if(nome.length < 2)
@@ -46,12 +45,6 @@ function validateForm() {
     if(birth > getTodayDate()) {
         alert("La data di nascita non può essere successiva ad oggi");
         return false;
-    }
-
-    function validateEmail(email) {
-        const emailPattern = /^[^\s@]+@[^\s@]+.[^\s@]+$/;
-        alert("L'email inserita non è valida");
-        return emailPattern.test(email);
     }
 
     if(password.length < 8)
