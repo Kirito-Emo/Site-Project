@@ -17,7 +17,7 @@ body {
 /* impostando l'immagine di sfondo in questo modo (fixed), creo l'effetto parallasse (parallax) */
 .container {
     background-image: url(../images/form.jpg);
-    height: 1200px;
+    height: 1150px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -247,9 +247,10 @@ header .logo:hover {
  * FOOTER
  */
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
+    margin-top: 50px;
     height: 140px;
     width: 100%;
     display: flex;
