@@ -37,9 +37,33 @@
                 </a>
 
                 <ul id="menu-drop">
-                    <li><a href="#">PRENOTAZIONI</a></li>
+                    <li><a href="#">PRENOTAZIONI</a>
+                        <ul id="menu-prenotazioni">
+                            <?php
+                                include("../Login-Logout/logdb.php");
+
+                                $email = $_SESSION['email'];
+
+                                $query = "SELECT * FROM prenota WHERE email='$email';";
+                                $result = pg_query($db, $query);
+
+                                if (pg_num_rows($result) == 0)
+                                {
+                                    echo 'Nessuna';
+                                    pg_close($db);
+                                } else {
+                                    while ($prenotazione = pg_fetch_assoc($result)) {
+                                        $servizio = $prenotazione['servizio'];
+                                        echo $servizio . "</br>";
+                                    }
+                                    pg_close($db);
+                                }
+                            ?>
+                        </ul>
+                    </li>
+                    
                     <li><a href="../Login-Logout/log.php?logout=true">ESCI</a></li>
-                 </ul>
+                </ul>
             </li>
         <?php else: ?>
             <li><a href="../Login-Logout/log.php">LOGIN</a></li>
