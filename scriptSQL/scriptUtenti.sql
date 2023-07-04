@@ -6,7 +6,7 @@ CREATE TABLE utente (
     nascita DATE NOT NULL,
     sesso VARCHAR NOT NULL,
     email VARCHAR(50) PRIMARY KEY,
-    pass VARCHAR(100) NOT NULL
+    pass VARCHAR(255) NOT NULL
 );
 
 INSERT INTO utente (nome, cognome,nascita, sesso, email, pass)

@@ -11,11 +11,11 @@ CREATE TABLE Volontari (
     descrizione VARCHAR(100) NOT NULL
 );
 
-INSERT INTO Volontari (nome, cognome, età, email, città, telefono, Disponibilità, descrizione)
+INSERT INTO Volontari (nome, cognome, età, email, città, telefono, disponibilità, descrizione)
     VALUES
-        ('Mario', 'Rossi', 25, 'mario.rossi@gmail.com', 'Roma', 1234567890, 'Lunedì', 'Descrizione volontario 1'),
-        ('Giulia', 'Bianchi', 30, 'giulia.bianchi@gmail.com', 'Milano', 9876543210, 'Martedì', 'Descrizione volontario 2'),
-        ('Luca', 'Verdi', 28, 'luca.verdi@gmail.com', 'Napoli', 4567890123, 'Mercoledì', 'Descrizione volontario 3');
+        ('Mario', 'Rossi', 25, 'mario.rossi@gmail.com', 'Roma', 1234567890, 'Lunedì', 'Studente che offre compagnia'),
+        ('Giulia', 'Bianchi', 30, 'giulia.bianchi@gmail.com', 'Milano', 9876543210, 'Martedì', 'Infermiere'),
+        ('Luca', 'Verdi', 28, 'luca.verdi@gmail.com', 'Napoli', 4567890123, 'Mercoledì', 'Commesso');
 
 -- Concedi tutti i privilegi all'utente www
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO www;
