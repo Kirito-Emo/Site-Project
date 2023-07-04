@@ -313,7 +313,7 @@ footer {
     left: 0;
     bottom: 0;
     margin-top: 50px;
-    height: 140px;
+    height: 150px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -334,7 +334,7 @@ footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 40px;
     font-size: x-large;
 }
