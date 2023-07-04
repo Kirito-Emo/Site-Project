@@ -13,6 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="keywords" content="Volontariato anziani assistenza"/>
         <link rel="icon" href="../images/icon.jpg" type="image/jpg"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins"/>
         <link rel="stylesheet" type="text/css" href="./prenota.css"/>
         <script src="./prenota.js"></script>
     </head>
