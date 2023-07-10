@@ -177,8 +177,8 @@ header .logo:hover {
 
 .row1 p {
     padding-top: 20px;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 20px;
     font-size: 20px;
     font-weight: 400;
@@ -189,7 +189,7 @@ header .logo:hover {
     font-weight: 400;
 }
 
-.row2, .row3{
+.row2, .row3 {
     text-align: center;
     margin-top: 30px;
 }
@@ -260,11 +260,6 @@ header .logo:hover {
     font-size: 15px;
     font-weight: 600;
     padding-top: 20px;
-}
-
-input[type='radio'] {
-    transform: scale(1.7);
-    border: none;
 }
 
 .candidati-btn {

@@ -23,8 +23,7 @@
             <?php
                 if($_SESSION['isLoggedIn'] == true) {
                     include("../Homepage/header.php");
-                }
-                else{
+                } else {
                     echo '<script type="text/javascript">';
                     echo 'alert("Per poter accedere a questa pagina devi effettuare prima l\'accesso!");';
                     echo 'window.location.href = "../Login-Logout/log.php";';
